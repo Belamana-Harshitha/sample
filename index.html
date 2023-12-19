@@ -1,0 +1,124 @@
+<html style="background: linear-gradient(to right,rgb(250, 222, 97),rgb(248, 183, 250));">
+    <head>
+        <title>forum</title>
+        <style>
+            .h1{
+                display: flex;
+                color: black;
+                font-size: 50px;
+                align-self: center;
+                justify-content:center ;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #fbfcdf; 
+            }
+            .box1{
+                display: flex;
+                align-items: center;
+                justify-content:space-around;
+                background-color: #b58863;
+                margin: 0px;
+                font-size: 2rem;
+                flex-direction: row;
+                color: black;
+           
+            }
+            .grid-container {
+             display: grid;
+             grid-template-columns: repeat(3, 1fr); /* This creates a 3-column grid */
+             grid-gap: 10px; /* This adds some space between the grid items */
+             grid-auto-columns:1fr;  
+             grid-auto-rows:1fr ;      
+            }
+
+            .grid-container img {
+              width: 100%;
+              height: auto;
+             }
+           
+            .welcome{
+                color: blueviolet;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 40px;
+                text-align: center;
+            }
+            p{
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                font-weight: bold;
+            }
+            .contains{
+                object-fit: cover ;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #fbfcdf;
+                margin: 0px;
+                font-size: 1rem;
+                flex-direction: row;
+                color: black;
+                background-image: url("back.jpeg");
+            }
+            .new{
+                background-color: rgb(252, 216, 170);
+            }
+            .videos{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* This creates a 3-column grid */
+                gap: 10px; /* This adds some space between the grid items */
+                font-size: 1rem;
+                flex-direction: row;
+                color: black;
+                grid-template-rows: auto auto;
+                grid-template-columns: 1fr 1fr ;
+            }
+            .about a {
+             color: black; /* Replace with your desired color */
+
+            }
+            .literacy a {
+               color: black; /* Replace with your desired color */
+            }
+            .creative a {
+             color: black; /* Replace with your desired color */
+            }
+            .recommends a {
+             color: black; /* Replace with your desired color */
+            }
+            
+
+                         
+        </style>
+    </head>
+    <body>
+        <div class="container"></div>
+        <div class="h1">THERE'S  TIME  IF  YOU  THINK</div>
+        <div class="box1">
+        <div class="home">HOME</div>
+        <div class="about"><a href="aboutme.html"> ABOUT</a></div>  
+        <div class="literacy"><a href="literacy.html">LITERACY</a></div>
+        <div class="creative"><a href="creative.html">CREATIVE</a> </div>
+        <!-- <div class="recommends"><a href="recommends.html">RECOMMENDS</a></div> -->
+        </div>
+        <p>HEY GUYS! WELCOME TO <span class="welcome">LEZIX</span> HAVE A GREAT TIME AHEAD!! </p>
+        <div class="grid-container">
+        <img src="pic.jfif" alt="Image 1">
+        <img src="pic1.jpeg" alt="Image 2">
+        <img src="pic2.jpg" alt="Image 3">
+        <img src="pic3.jfif" alt="Image 4">  
+    </div>
+         <div class="contains" >
+         <h1>"The world is a book<br /> and those who do not travel read only one page."<br /><span style="color: rgb(28, 29, 3);">- Saint Augustine</span><h1>      
+      </div>
+         <div class="new"></div>
+            <h1>NEW UPDATES</h1>
+        <div class="videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/D8Bmm_X53qQ?si=ib4xvoeGpgV9qwgG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UIZAiXYceBI?si=seMqvFnT2vf026ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jV1vkHv4zq8?si=FXpu4c2zpcHJZl5b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+        </div>
+        
+
+    </body>
+
+</html>
