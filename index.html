@@ -49,18 +49,22 @@
             }
             .contains{
                 object-fit: cover ;
-                display: flex;
+                display: grid;
                 align-items: center;
                 justify-content: center;
-                background-color: #fbfcdf;
+                grid-area: span 2;
+                grid-template-rows: 350px ;
+                background-color: blanchedalmond;
+               
                 margin: 0px;
                 font-size: 1rem;
-                flex-direction: row;
                 color: black;
-                background-image: url("back.jpeg");
+                background-image: url("pattern.jpg");
+
             }
-            .new{
+            h1 .new{
                 background-color: rgb(252, 216, 170);
+                font-family: Arial, Helvetica, sans-serif;
             }
             .videos{
                 display: grid;
